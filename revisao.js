@@ -23,6 +23,7 @@ const contagemRegressiva = setInterval (() =>{
 
 }, 1000);
 */
+/*
 console.log('Balço financeiro Anual');
 
 function balancofinanceiro(){
@@ -48,6 +49,15 @@ function balancofinanceiro(){
     } else {  
         console.log("A empresa não teve lucro nem prejuízo.");  
     }  
+}*/
+console.log('Ordem crescente');
+let n1 = prompt('Digite um número inteiro');
+let n2 = prompt('Digite um número inteiro');
+let n3 = prompt('Digite um número inteiro');
+let n4 = prompt('Digite um número inteiro');
+if(n1>n2>n3>n4){
+    console.log(n1);
 }
-
-
+if(n2>n1>n3>n4){
+    console.log(n2);
+}
