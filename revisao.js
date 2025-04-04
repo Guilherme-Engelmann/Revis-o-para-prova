@@ -25,11 +25,29 @@ const contagemRegressiva = setInterval (() =>{
 */
 console.log('Balço financeiro Anual');
 
-for( let i=0; i=12; i++){
-    let ganhoBruto = prompt('Digite o hanho Bruto da empresa');
-    let gastosMensais = prompt('Digite os gastos mensais da sua empresa');
+function balancofinanceiro(){
+    let ganhosBrutos = prompt('Digite o ganho bruto anual da empresa:');
+  
+    for(let i=1; mes<=12;mes++){
+        let gastos = prompt('Digite os gastos do mês:');
 
+    }
+    let saldoFinal = ganhosBrutos + gastos;
 
+    console.log('Total de ganhos');
+    console.log(ganhosBrutos);
+    console.log('Total de gastos');
+    console.log(gastos);
+    console.log('Saldo Final');
+    console.log(saldoFinal);
+
+    if (saldoFinal > 0) {  
+        console.log("A empresa teve lucro no ano.");  
+    } else if (saldoFinal < 0) {  
+        console.log("A empresa teve prejuízo no ano.");  
+    } else {  
+        console.log("A empresa não teve lucro nem prejuízo.");  
+    }  
 }
-    
+
 
